@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(sfondo-lim.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+
+   
+}
+
+header {
+    text-align: center;
+
+}
+img {
+    height: 100px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(38, 255, 0);
+}
+
+nav {
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    background: rgb(38, 255, 0);
+    margin-top: 20px;
+  
+}
+
+.button {
+    text-align: center;
+    padding: 15px;
+    
+}
+
+
+main {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+h3 {
+    display: inline-block;
+}
+
+p, h3 {
+    margin: 5px;
+    color: white;
+}
+
+.charge {
+    background-color: orange;
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.block {
+    padding-top: 15px;
+}
+
+#charge2 {
+    background-color: green;
+    width: 70%;
+}
+
+#charge3 {
+    background-color: red;
+    width: 15%;
+}
